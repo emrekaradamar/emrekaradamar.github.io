@@ -1,0 +1,27 @@
+
+title: "White Tiger"
+description: "Official website of White Tiger Games. Discover our games, get support, and read our privacy policies."
+author: "Emre Karadamar"
+
+theme: minima
+
+url: "https://emrekaradamar.github.io"
+baseurl: "/rocketverse-support"
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+# Website settings
+show_excerpts: false
+
+# Contact
+support_email: "ek.white.tiger@gmail.com"
+
+# Games
+games:
+  - name: "Rocketverse"
+    description: "Embark on a cosmic journey through the universe. Dodge meteors, master your rockets, and explore the continuum."
+    privacy_policy: "/rocketverse-privacy/"
+    support: "/support/"
