@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080D1A">
+  <meta name="description" content="Get help and support for Rocketverse, a space-themed mobile game.">
+  <title>Rocketverse — Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080d1a;
+      --panel: rgba(16, 25, 46, .88);
+      --text: #f4f7ff;
+      --muted: #aab8d2;
+      --accent: #7fc5ff;
+      --gold: #ffd700;
+      --border: rgba(127,197,255,.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 48px 20px;
+      background:
+        radial-gradient(ellipse at 50% -10%, rgba(52,103,173,.36), transparent 52%),
+        radial-gradient(ellipse at 100% 60%, rgba(24,49,94,.18), transparent 45%),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: 100%; max-width: 760px; margin: 0 auto; }
+    header { text-align: center; margin: 24px 0 42px; }
+    .logo {
+      display: block; width: 104px; height: 104px; margin: 0 auto;
+      border-radius: 28px; object-fit: cover;
+      box-shadow: 0 14px 42px rgba(0,0,0,.42), 0 0 34px rgba(127,197,255,.18);
+    }
+    h1 { margin: 18px 0 6px; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: -.04em; }
+    header p, .muted { color: var(--muted); }
+    section {
+      margin: 18px 0; padding: 26px;
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 20px; box-shadow: 0 16px 44px rgba(0,0,0,.16);
+    }
+    h2 { margin: 0 0 12px; font-size: 1.25rem; }
+    h3 { margin: 20px 0 6px; font-size: 1rem; }
+    p { margin: 8px 0; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .contact {
+      display: inline-block; margin-top: 12px; padding: 11px 17px;
+      border-radius: 999px; background: linear-gradient(110deg, #18608a, #244a83);
+      border: 1px solid rgba(127,197,255,.28); color: white;
+      text-decoration: none; font-weight: 650;
+      box-shadow: 0 8px 24px rgba(20,83,135,.24);
+    }
+    footer { padding: 24px 0 8px; text-align: center; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 520px) {
+      body { padding: 28px 16px; }
+      section { padding: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="logo" src="Assets/Textures/Logo/RocketverseAppLogo-512.png" alt="Rocketverse app logo" width="104" height="104">
+      <h1>Rocketverse Support</h1>
+      <p>Need help with your journey through the universe? We're here to help.</p>
+    </header>
+
+    <section>
+      <h2>Contact Support</h2>
+      <p>If you have a question, encounter a bug, or would like to share feedback,
+         please email us. To help us investigate, include your device model,
+         operating system version, and a description of the issue.</p>
+      <a class="contact" href="mailto:ek.white.tiger@gmail.com?subject=Rocketverse%20Support">
+        Email Rocketverse Support
+      </a>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>The game is not working as expected. What should I do?</h3>
+      <p>First, make sure your device is running a supported operating system and
+         that Rocketverse is updated to the latest version. If the issue continues,
+         contact us with the steps that reproduce it.</p>
+
+      <h3>I found a bug or have a suggestion.</h3>
+      <p>We appreciate your feedback. Send us a description of what happened,
+         and include a screenshot or screen recording if it helps explain the issue.</p>
+
+      <h3>I have a question about ads or privacy.</h3>
+      <p>For questions about advertising, data use, or privacy, please contact us
+         using the email address above.</p>
+
+      <h3>My game progress or settings seem to be missing.</h3>
+      <p>Please contact support before reinstalling the game or clearing its data.
+         Include your device details and explain when you first noticed the issue.</p>
+    </section>
+
+    <section>
+      <h2>About Rocketverse</h2>
+      <p>Rocketverse is a space-themed mobile game. Thank you for playing and
+         helping us improve the experience.</p>
+    </section>
+
+    <footer>
+      <p>© 2026 White Tiger. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
